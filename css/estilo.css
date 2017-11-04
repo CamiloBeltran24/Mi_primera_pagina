@@ -1,7 +1,7 @@
 
 #contenedor{
-	width: 960px;
-	height: auto;
+	width: 1024px;
+	height: 768px;
 	margin: auto;
 	position: relative;
 }
@@ -18,6 +18,7 @@ header{
 	margin-top: 10px;
 }
 h1{
+	width: 960px;
 	font-size:40px ;
 	text-align: center;
 	color: blue;
@@ -62,38 +63,38 @@ h2{
 
 section{
 	width: 500px;
-	height: 550px;
+	height: 600px;
 	float:left;
 	border-style: solid;
 	border-color: #004669;
 	border-radius: 10px;
-	margin-top: 30px;
+	margin-top: 7px;
+	text-align: justify;
+	padding: 5px;
 }
 #introduccion{
 
-	width: 960px;
-	height: 250px;
-	margin: 10px;
+	width: 950px;
+	height: 200px;
+	float: left;
 	border-style: solid;
 	border-color: #004669;
 }
 
 aside{
-	width: 460px
+	float: left;
+	width: 410px;
+	height: 600px;
 	border-style:solid;
 	border-color:  #004669;
 	border-radius: 10px;
 	margin-left: 20px;
+	margin-top: 7px;
+	padding: 5px;
 
 
 }
-footer{
-	width: 960px;
-	height: 170px;
-	background:black;
-	color:white;
-	border-style: solid;
-}
+
 img{
 	margin-left: auto;
     margin-right: auto;
@@ -102,4 +103,37 @@ img{
     padding-bottom: 20px;
     float: right;
     
+}
+#imgE{
+	width: 500px;
+	height: 300px;
+	float: right;
+	
+}
+
+#definicion{
+	width: 960px;
+	height: 100px;
+	border-style: solid;
+	text-align:justify;
+	padding: 20px;
+	margin-top: 0px;
+}
+#ejemplo{
+	width:400px;
+	height:600px;
+	margin-top: 20px;
+	padding: 10px;
+	float:left;
+}
+footer{
+	
+	width: 960px;
+	height: 100px;
+	backface-visibility: visible;
+	background: gray;
+	background-color: gray;
+	align-self: flex-end;
+	float: left;
+	margin-top: 5px;
 }
