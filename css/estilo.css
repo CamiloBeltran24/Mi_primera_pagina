@@ -41,8 +41,9 @@ h2{
 	background-color: #004669;
 	color: white;
 	text-decoration: none;
-	padding:5px 43px;
+	padding:5px 45px;
 	display: block; 
+	border-radius: 5px;
 
 }
 .nav li a:hover{
@@ -136,4 +137,6 @@ footer{
 	align-self: flex-end;
 	float: left;
 	margin-top: 5px;
+	margin-bottom: 20px;
+	border-radius: 5px;
 }
