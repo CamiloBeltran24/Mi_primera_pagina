@@ -188,3 +188,33 @@ footer{
 	width: 550px;
 	height: 78px;
 }
+#descripcion{
+	float: left;
+	width: 520px;
+	height: 300px;
+	padding: 3px;
+	text-align: justify;
+}
+#imgshel{
+	float: left;
+	width: 420px;
+	height: 300px;
+	margin-left: 20px;
+}
+#seguir2{
+	float: left;
+	width: 520px;
+	height: 100px;
+	text-align: center;
+	margin-left: 0px;
+}
+#funq{
+	float: left;
+	width: 960px;
+	height: 200px;
+	
+}
+#imgq{
+	float: left;
+	width: ;
+}

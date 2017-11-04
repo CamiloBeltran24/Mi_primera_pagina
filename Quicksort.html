@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta content="Camilo Beltran" name="Author">
+	<meta content="metodos de Ordenamiento en Programacion" name="description">
+	<meta content="diseño de sistemas, unad, logica de programacion, Ordenamiento en programacion" name="Keywords">
+	<title>Metodo de Ordenamiento en insercion y seleccion</title>
+	<link rel="stylesheet"  href="css/normalize.css">
+	<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+	<img id="logo" src="imagenes/logoUNAD.png" alt="logo Universidad">
+	<div id="contenedor">
+		<header>
+			<h1>Metodo de Ordenamiento Quicksort</h1>	
+		</header>
+
+		<nav>
+			<ul class="nav" >
+				<li>
+					<a href="index.html">INICIO</a>
+				</li>
+				
+			<li> 
+
+				<a href="">LECTURAS</a>	
+				<ul>
+					<li> <a href="Burbuja.html">Metodo Burbuja</a></li>
+					<li> <a href="ordenamiento.html">Metodo de Ordenamiento por mezcla </a></li>
+					<li> <a href="in&sel.html">Metodo de Insercion y seleccion</a></li>
+					<li> <a href="Shellsor.html">Metodo shellsort</a></li>
+					<li> <a href="Quicksort.html">Metodo Quicksort</a></li>
+				</ul>
+			</li>
+			<li >
+				<a href=""> MULTIMEDIA</a>
+			</li>
+			<li >
+				<a href=""> ACTIVIDADES</a>
+				<ul>
+					<li>
+						<a href="">Actividad 1</a>
+						<a href="">Actividad 2</a>
+						<a href="">Actividad 3</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="">AUTORES </a>
+			</li>
+			</ul>
+		</nav>
+	<img src="../OVI/imagenes/Burbuja.png" alt="">
+		<section id="funq">
+			<article>
+				<h2>Funcionamiento</h2>
+				
+				<p>
+					Lo que hace este algoritmo es dividir recurvisamente el vector en partes iguales, indicando un elemento de inicio,  fin y un pivote (o comodin) que nos permitira segmentar nuestra lista. Una vez dividida, lo que hace, es dejar todos los mayores que el pivote a su derecha y todos los menores a su izq. Al finalizar el algoritmo, nuestros elementos estan ordenados.
+				</p>
+				<br>
+				<p> 
+					este algoritmo es uno de los mas eficientes. Este metodo es el mas rapido gracias a sus llamadas recursivas.
+				</p>
+			</article>
+		</section>
+			<section id="ejemplo">
+				<article>
+					<h2>Ejemplo: </h2>
+						<br>
+						<br>
+					<p>
+						Por ejemplo, si tenemos 3 5 4 8 basicamente lo que hace el algoritmo es dividir la lista de 4 elementos en partes iguales, por un lado 3, por otro lado 4 8 y como comodin o pivote el 5. Luego pregunta, 3 es mayor o menor que el comodin? Es menor, entonces lo deja al lado izq. Y como se acabaron los elementos de ese lado, vamos al otro lado. 4 Es mayor o menor que el pivote? Menor, entonces lo tira a su izq. Luego pregunta por el 8, al ser mayor lo deja donde esta, quedando algo asi: 3 4 5 8
+					</p>
+				</article>
+			</section>	
+		<img id="imgq" src="imagenes/quicksort.png" alt="ejemplo">
+		
+		<aside id="seguir">
+			<center>
+			<h2>Siguenos en Twitter</h2>
+				
+			<a href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @UniversidadUNAD</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			<br>
+			<a href="https://twitter.com/CamiloBeltran?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @CamiloBeltran</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</center>
+		</aside>
+		
+		<footer>
+			
+			<p>Desarrollado por Camilo Beltran</p>
+			<p>Estudiate de ingenieria</p>
+			<p>cod:1.070.611.591</p>
+			<p>Universidad Nacional Abierta y a Distancia</p>
+
+		</footer>
+		
+	</div>
+</body>
+</html>
