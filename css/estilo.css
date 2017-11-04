@@ -222,6 +222,40 @@ footer{
 	
 	
 }
-imgq2{
+#imgq2{
+	float: left;
+	width: 548px;
+	height: 475px;
+}
+
+#autor{
+	float:left;
+	width: 950px;
+	height: 160px;
+	padding: 10px;
+	border-style: solid;
+}
+
+#selfie{
+	float: left;
+	width: 400px;
+	height: 250px;
+	padding: 10px;
+	align-content: center;
 	
 }
+#au{
+	float: left;
+	width: 513px;
+	height: 598px;
+}
+#f1{
+	width: 977px;
+}
+
+#vid{
+	widows: 970px;
+	height:  300px;
+}
+
+
