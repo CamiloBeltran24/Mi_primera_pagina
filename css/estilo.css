@@ -254,8 +254,12 @@ footer{
 }
 
 #vid{
-	widows: 970px;
-	height:  300px;
+	widows: 483px;
+	height:  270px;
+	padding-left: 10px;
+}
+#asidevideo{
+	height: 632px;
 }
 
 
