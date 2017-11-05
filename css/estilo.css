@@ -260,6 +260,53 @@ footer{
 }
 #asidevideo{
 	height: 632px;
+
 }
+#actividad1{
+	float: center;
+	width: 950px;
+    height: 550px;
+	align-items: center;
+}
+#act1{
+	width: 960px;
+	height: 100px;
+	float: left;
+	padding: 0px;
+	margin-left: 0px;
+}
+#imagenes1{
+	float: left;
+	width: 948px;
+	height: 300px;
+}
+#imagenes2{
+	float: left;
+	width: 500px;
+	height: 300px;
+	
+}
+#ult{
+	float: left;
+	height: 300px;
+	color: #EBC91C
+}
+
+#i1{
+	width: 550px;
+	height: 250px;
+	float: left;
+	padding-left: 230px;
+	
+}
+#i2{
+	width: 500px;
+	height: 250px;
+	float: left;
+	
+}
+	
+
+	
 
 
